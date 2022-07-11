@@ -10,3 +10,4 @@ mobile shop homepage
 5. 카테고리 메뉴 - query parameter
 6. 상세페이지
 7. 문서 -> 자료형 변환(팁)
+  - https://csvjson.com/csv2json
