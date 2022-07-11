@@ -1,0 +1,140 @@
+/* poducts */
+
+.category-menu{
+    display: flex;
+    flex-wrap: nowrap;
+    /* outline: 1px solid #ccc; */
+    padding-left: 20px;
+    overflow: scroll;
+    margin-top: 20px;
+}
+.category-menu a{
+    white-space: nowrap;
+    margin-right: 5px;
+}
+
+
+
+.container{
+    
+    width: 100%;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* padding-bottom: 50px; */
+    /* outline: 1px solid #ccc; */
+}
+
+.main .container{
+    padding-bottom: 50px;
+}
+
+.btn-small, .btn-large{
+    background: var(--mian--color);
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 2px;
+}
+
+
+/* products */
+
+#products .row {
+    flex-wrap: wrap;
+    /* 칼럼 사이의 여백 수직 | 수평 */
+    gap: 40px 10px;
+
+}
+
+#products .product{
+    width: calc(50% - 5px);
+}
+
+#products .product img{
+    width: 100%;
+    display: block;
+}
+
+
+#products main .container{
+    padding-top: 30px;
+}
+
+#products .product .info {
+    background-color: var(--bg-color2);
+    color: var(--text-color);
+    margin-top: 5px;
+  }
+
+
+#products .product .info .category{
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--mian--color);
+    margin-bottom: 5px;
+    
+}
+
+#products .product .info .title{
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 5px;
+
+}
+
+#products .product .info .price{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* detail */
+
+.btn-large{
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    color: var(--text-color);
+    
+}
+/* 선스타일 바꿈 */
+.btn-large.btn-outline{
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+#detail main .buy-btn-group{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+#detail main .buy-btn-group .btn-large{
+    width: 50%;
+    
+}
+
+#detail main figure img{
+    width: 100%;
+    
+}
+
+#detail main header h1{
+    margin-bottom: 30px;
+}
+
+#detail main header{
+    padding-bottom: 20px;
+}
+
+#detail main .container{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#detail main .buy-btn-group{
+    margin-top: 50px;
+}
